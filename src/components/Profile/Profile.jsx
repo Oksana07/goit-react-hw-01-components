@@ -1,9 +1,6 @@
 import PropTypes from 'prop-types';
 import noAvatar from '../../images/photo.png';
 
-import PropTypes from 'prop-types';
-import noAvatar from '../../images/photo.png';
-
 import styles from './Profile.module.css';
 
 const Profile = ({ avatar, name, tag, location, stats }) => (
@@ -38,7 +35,7 @@ const Profile = ({ avatar, name, tag, location, stats }) => (
 );
 
 Profile.defaultProps = {
-  avatar: "https://is5-ssl.mzstatic.com/image/thumb/Purple71/v4/06/35/3e/06353e20-cb84-c0fb-941f-fa42c64855f9/source/512x512bb.jpg",
+  avatar: "https://is5-ssl.mzstatic.com/image/thumb/Purple71/v4/06/35/3e/06353e20-cb84-c0fb-941f-fa42c64855f9/source/512x512bb.jp",
 };
 
 Profile.propTypes = {

@@ -1,12 +1,12 @@
-import PropTypes from "prop-types";
-import s from "../Statistics/Statistics.module.css";
+import PropTypes from 'prop-types';
+import s from '../Statistics/Statistics.module.css';
 
 // import PropTypes from 'prop-types';
 // import s from './statistics.module.css';
 
 const randomColor = () => {
   return (
-    "#" + (Math.random().toString(16) + "000000").substring(2, 8).toUpperCase()
+    '#' + (Math.random().toString(16) + '000000').substring(2, 8).toUpperCase()
   );
 };
 
@@ -38,7 +38,7 @@ Statistics.propTypes = {
       id: PropTypes.string.isRequired,
       label: PropTypes.string.isRequired,
       percentage: PropTypes.number.isRequired,
-    })
+    }),
   ),
 };
 
